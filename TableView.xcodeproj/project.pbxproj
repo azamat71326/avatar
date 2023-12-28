@@ -16,6 +16,8 @@
 		BA5B80C22B378FC800C6AA53 /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5B80C12B378FC800C6AA53 /* TableViewTests.swift */; };
 		BA5B80CC2B378FC800C6AA53 /* TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5B80CB2B378FC800C6AA53 /* TableViewUITests.swift */; };
 		BA5B80CE2B378FC800C6AA53 /* TableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5B80CD2B378FC800C6AA53 /* TableViewUITestsLaunchTests.swift */; };
+		BA5B80DB2B37918600C6AA53 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5B80DA2B37918600C6AA53 /* TableViewController.swift */; };
+		BA5B80DD2B37C01A00C6AA53 /* person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5B80DC2B37C01A00C6AA53 /* person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BA5B80C72B378FC800C6AA53 /* TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5B80CB2B378FC800C6AA53 /* TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITests.swift; sourceTree = "<group>"; };
 		BA5B80CD2B378FC800C6AA53 /* TableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA5B80DA2B37918600C6AA53 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BA5B80DC2B37C01A00C6AA53 /* person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				BA5B80AA2B378FC600C6AA53 /* AppDelegate.swift */,
 				BA5B80AC2B378FC600C6AA53 /* SceneDelegate.swift */,
 				BA5B80AE2B378FC600C6AA53 /* ViewController.swift */,
+				BA5B80DC2B37C01A00C6AA53 /* person.swift */,
 				BA5B80B02B378FC600C6AA53 /* Main.storyboard */,
+				BA5B80DA2B37918600C6AA53 /* TableViewController.swift */,
 				BA5B80B32B378FC800C6AA53 /* Assets.xcassets */,
 				BA5B80B52B378FC800C6AA53 /* LaunchScreen.storyboard */,
 				BA5B80B82B378FC800C6AA53 /* Info.plist */,
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA5B80AF2B378FC600C6AA53 /* ViewController.swift in Sources */,
+				BA5B80DD2B37C01A00C6AA53 /* person.swift in Sources */,
 				BA5B80AB2B378FC600C6AA53 /* AppDelegate.swift in Sources */,
 				BA5B80AD2B378FC600C6AA53 /* SceneDelegate.swift in Sources */,
+				BA5B80DB2B37918600C6AA53 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
